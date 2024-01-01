@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+    transition: background-color .5s ease;
+}
+
+button {
+    font-size: large;
+
+    color: #222;
+
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.big { transition: font-size .1s ease;}
+.big:active { font-size: 1.6em; }
+
+span {
+    padding: 10px 0;
+
+    cursor: pointer;
+}
+span:first-child { padding-left: 10px; }
+span:nth-child(2) { padding: 10px 4px; }
+span:last-child { padding-right: 10px; }
+
+p {
+    bottom: 0;
+
+    color: #11111150;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    position: absolute;
+}
